@@ -2,7 +2,7 @@ FROM openjdk:17-jdk
 
 MAINTAINER "naresh.avula@gmail.com"
 
-COPY target/springOauth2Demo.jar  /app/usr/springOauth2Demo.jar
+COPY target/springOauth2Demo.jar  /usr/app/springOauth2Demo.jar
 
 WORKDIR /usr/app/
 
